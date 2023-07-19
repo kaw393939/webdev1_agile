@@ -1,8 +1,31 @@
 # Unit Overview
 
-A software product needs to work perfctly and address a real need of the product customer,  or at best it isn't worth making at all, at worst it will get you sued and/or cost you a lot more money than you ever expected due to errors, ommisions, public embarssment of the company, security vulnerabilities, wasted development or a myriad of other issues.  It's important to considere that the vast majority of software projects/products started are never completed successfully from a techncial or financial point of view.   In my 30+ years of experience one of the main things I've learned is that when you're designing a software product your job is to to try to figure out the LEAST/Minimal amount of software product you can create to resolve the business need that the software product is intended to address.  Minimalism is hard, so how you figure out what to make is a complex challenge and in this unit I hope to impart upon you some valuable experience and knowledge that will help you understand a varity of technologies and concepts that oftent talked about individually, but not discuessed from a wholistic practical point of view.  In this unitt we will be making the "hello world" of a product using Next.JS, Playwright, and GitHub actions.
+For a software product to be valuable, it must both function flawlessly and meet the genuine needs of its users. If not done correctly, a faulty software can lead to various challenges, including financial losses, public embarrassment, potential lawsuits, security breaches, and more. Historically, many software projects fail to reach successful completion, both technically and financially.
 
-When creating a new product, its important to understand that your goal is to work towards what's called a "pull" process of product development.  In product development you can either "push" a feature/product on customer or potential customer, which is often necessary when creating a "new" product; however, this is extremly risky because every decision made without direct input /request by a customer creates a risk of wasting resources (money) spent on the development, not meeting the needs of the customer, nott gain new customers, or lose customers.  To minimize this risk a product manager/designer/owner must seek to address customer needs that have been discovered by direct feedback from the customer or careful product research.  
+Drawing from my three-decade-long experience in this domain, one key insight I can share is the importance of minimalism. In designing software, one should strive to determine the most streamlined solution that addresses the specific business need in question. While the concept of minimalism seems simple, executing it can be challenging. The objective of this unit is to offer you insights and knowledge from my experience, helping you grasp various technologies and ideas. While these concepts are often explored in isolation, we'll study them from a comprehensive, practical perspective. This unit will guide you through the creation of a basic product using Next.JS, Playwright, and GitHub actions.
+
+Remember, when devising a new product, it's crucial to focus on a "pull" approach in product development. This involves prioritizing what users truly want rather than pushing a product or feature upon them. While introducing novel products sometimes requires this "push" strategy, it's inherently riskier. Every decision made without direct user feedback can lead to wasted resources, misalignment with user needs, or even a decline in customer base. To mitigate such risks, product developers should heavily rely on direct user feedback and meticulous product research.  
+
+## Assignment Instructions
+
+In this assignment, your customer is requesting a web page that that says "Hellow Professor" in a heading tag on the homepage and that the web page title it set to "Hello Professor". 
+
+**You will need to do the following:**
+
+1.  Write a user story for the "Hello Professor" web page title.
+2.  Write acceptance criteria for the "Hello Professor" web page title that are automated e2e Playwright tests.
+3.  Write a user story for the "Hello Professor" using the h1 tag 
+4.  Write acceptance criteria for the "Hello Professor" web page heading tag that are automated e2e Playwright tests.
+5.  Write a technical user story for a GitHub action to run playwright automated tests before allowing the code to be merged to the master branch
+6.  Write acceptance tests that include manual testing of the GitHub action for testing the code before a merge is allowed to the master branch.
+7.  Write a technical user story for a GitHub action to deploy the site to GitHub pages after a merge.
+8.  Write acceptance criteria for manually testing the deployment of the site.
+
+Note: You might want to challeenge yourself to figure out a method for testing step #8 by automaticly running playwright tests, after deploymnet but having a specific test to go to the site's deployed URL.
+
+
+
+Your task is to implement this with the NextJS project provided, write Playwright tests to check that both requirements are met, and 
 
 **Topics**
 - Agile Documentation
