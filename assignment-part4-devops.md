@@ -26,24 +26,12 @@ Leverage GitHub Actions to:
 ### 2️⃣ **Automated Deployment with Testing**
 
 📋 **Task:**
-   - Draft a technical user story detailing automated deployments post successful Playwright tests. Highlight deploying to GitHub Pages or Vercel upon successful test results and master branch update.
-
+   - Draft a technical user story detailing automated deployments post successful deployment to either GitHub Pages or Vercel.  
 📋 **Task:**
    - Specify acceptance criteria to ensure both successful test execution and deployment to GitHub Pages or Vercel.
 
 📋 **Task:**
    - Configure the GitHub Action for deployment post successful testing.
-
-### 3️⃣ **Post-Deployment Verification**
-
-📋 **Task:**
-   - Create a GitHub issue for "Deployment Verification with Playwright" and pen a technical user story inside. Emphasize validating the live site after deployment using Playwright tests.
-
-📋 **Task:**
-   - In the GitHub issue, lay out acceptance criteria detailing the Playwright post-deployment test expectations.
-
-📋 **Task:**
-   - Set up a GitHub Action that triggers Playwright tests post-deployment and notifies the team of any failures.
 
 📚 **Resources:**
 
